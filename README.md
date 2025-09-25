@@ -1,6 +1,51 @@
-# Earth Agent Evaluation Framework
+<div align="center">
+<h2> <img src="./imgs/logo.png" alt="Image Alt Text" width="50" height="50" align="absmiddle"> Earth-Agent: Unlocking the Full Landscape of Earth Observation with Agents
+</h2> 
+</div>
+<div align="center">
 
+[Peilin Feng](https://scholar.google.com/citations?user=kJRiUYwAAAAJ&hl=zh-CN)<sup>1,3*</sup>, 
+[Zhutao Lv](https://yejy53.github.io/)<sup>2,1*</sup>,
+[Junyan Ye](https://peilin-ff.github.io/)<sup>1,3</sup>, 
+[Xiaolei Wang](https://scholar.google.com/citations?user=kVbzWCAAAAAJ&hl=zh-CN)<sup>4,1</sup>, <br>
+[Xinjie Huo](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN)<sup>4,1</sup>, 
+[Jinhua Yu](https://openreview.net/profile?id=~Yize_Chen2)<sup>5</sup>, 
+[Wanghan Xu](https://scholar.google.com/citations?user=LHiiL7AAAAAJ&hl=zh-CN)<sup>1</sup>, 
+[Wenlong Zhang](https://openreview.net/profile?id=~wenjun_wu3)<sup>3</sup>, 
+[Lei Bai](https://openreview.net/profile?id=~wenjun_wu3)<sup>3</sup>, 
+[Conghui He](https://conghui.github.io/)<sup>1</sup>, 
+[Weijia Li](https://liweijia.github.io/)<sup>2,1†</sup>
+
+<sup>1</sup>Shanghai Artificial Intelligence Laboratory, <sup>2</sup>Sun Yat-sen University<br>
+<sup>2</sup>SenseTime Research
+
+<div align="center">
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2503.14905-AD1C18.svg?logo=arXiv)](https://arxiv.org/pdf/2503.14905) 
+[![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fopendatalab%2FFakeVLM&count_bg=%23C25AE6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
+[![GitHub issues](https://img.shields.io/github/issues/opendatalab/FakeVLM?color=critical&label=Issues)](https://github.com/opendatalab/FakeVLM/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/opendatalab/FakeVLM?style=social)](https://github.com/opendatalab/FakeVLM/stargazers)
+[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/lingcco/FakeClue)
+</div>
+
+</div>
 This repository contains the evaluation framework for Earth Agent: Unlocking the Full Landscape of Earth Observation with Agents
+
+
+## 📰 News 
+- **[2025.4.15]**: 🤗 We are excited to release the FakeClue dataset. Check out [here](https://huggingface.co/datasets/lingcco/FakeClue).
+- **[2025.3.20]**: 🔥 We have released **Earth-Agent: Unlocking the Full Landscape of Earth Observation with Agents**. Check out the [paper](https://arxiv.org/abs/2503.14905). We present Earth-Agent and Earth-Bench.
+
+## <img id="painting_icon" width="5%" src="https://cdn-icons-png.flaticon.com/256/599/599205.png"> Earth-Agent Overview
+
+<div align="center">
+<img src="imgs/Overview.png" alt="framework" width="95%" height="auto">
+</div>
+
+Earth observation (EO) is essential for understanding the evolving states of the Earth system.  Although recent MLLMs have advanced EO research, they still lack the capability to tackle complex tasks that require multi-step reasoning and the use of domain-specific tools. Agent-based methods offer a promising direction, but current attempts remain in their infancy, confined to RGB perception, shallow reasoning, and lacking systematic evaluation protocols. To overcome these limitations, we introduce Earth-Agent, the first agentic framework that unifies RGB and spectral EO data within an MCP-based tool ecosystem, enabling cross-modal, multi-step, and quantitative spatiotemporal reasoning beyond pretrained MLLMs. Earth-Agent supports complex scientific tasks such as geophysical parameter retrieval and quantitative spatiotemporal analysis by dynamically invoking expert tools and models across modalities. To support comprehensive evaluation, we further propose Earth-Bench, a benchmark of 248 expert-curated tasks with 13,729 images, spanning spectrum, products and RGB modalities, and equipped with a dual-level evaluation protocol that assesses both reasoning trajectories and final outcomes. We conduct comprehensive experiments varying different LLM backbones, comparisons with general agent frameworks, and comparisons with MLLMs on remote sensing benchmarks, demonstrating both the effectiveness and potential of Earth-Agent. Earth-Agent establishes a new paradigm for EO analysis, moving the field toward scientifically grounded, next-generation applications of LLMs in Earth observation.
+
+## <img id="painting_icon" width="5%" src="https://cdn-icons-png.flaticon.com/256/2435/2435606.png"> Contributions
+
 
 ## 📦 Data Preparation
 
