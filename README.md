@@ -4,20 +4,19 @@
 </div>
 <div align="center">
 
-[Peilin Feng](https://scholar.google.com/citations?user=kJRiUYwAAAAJ&hl=zh-CN)<sup>1,3*</sup>, 
-[Zhutao Lv](https://yejy53.github.io/)<sup>2,1*</sup>,
-[Junyan Ye](https://peilin-ff.github.io/)<sup>1,3</sup>, 
-[Xiaolei Wang](https://scholar.google.com/citations?user=kVbzWCAAAAAJ&hl=zh-CN)<sup>4,1</sup>, <br>
-[Xinjie Huo](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN)<sup>4,1</sup>, 
-[Jinhua Yu](https://openreview.net/profile?id=~Yize_Chen2)<sup>5</sup>, 
+[Peilin Feng](https://scholar.google.com/citations?user=kJRiUYwAAAAJ&hl=zh-CN)<sup>1*</sup>, 
+[Zhutao Lv](https://yejy53.github.io/)<sup>1,2*</sup>,
+[Junyan Ye](https://peilin-ff.github.io/)<sup>1,2</sup>, 
+[Xiaolei Wang](https://scholar.google.com/citations?user=kVbzWCAAAAAJ&hl=zh-CN)<sup>2</sup>, <br>
+[Xinjie Huo](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN)<sup>2</sup>, 
+[Jinhua Yu](https://openreview.net/profile?id=~Yize_Chen2)<sup>2</sup>, 
 [Wanghan Xu](https://scholar.google.com/citations?user=LHiiL7AAAAAJ&hl=zh-CN)<sup>1</sup>, 
-[Wenlong Zhang](https://openreview.net/profile?id=~wenjun_wu3)<sup>3</sup>, 
-[Lei Bai](https://openreview.net/profile?id=~wenjun_wu3)<sup>3</sup>, 
+[Wenlong Zhang](https://openreview.net/profile?id=~wenjun_wu3)<sup>1</sup>, 
+[Lei Bai](https://openreview.net/profile?id=~wenjun_wu3)<sup>1</sup>, 
 [Conghui He](https://conghui.github.io/)<sup>1</sup>, 
-[Weijia Li](https://liweijia.github.io/)<sup>2,1†</sup>
+[Weijia Li](https://liweijia.github.io/)<sup>1,2†</sup>
 
 <sup>1</sup>Shanghai Artificial Intelligence Laboratory, <sup>2</sup>Sun Yat-sen University<br>
-<sup>2</sup>SenseTime Research
 
 <div align="center">
 <!-- [![GitHub issues](https://img.shields.io/github/issues/opendatalab/FakeVLM?color=critical&label=Issues)](https://github.com/opendatalab/FakeVLM/issues)
